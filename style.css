@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient( #0f0c29, #302b63, #24243e);
+}
+h3 {
+  color: white;
+}
+hr {
+  border-color: white;
+}
+#notic {
+  color: white;
+}
