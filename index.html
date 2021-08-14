@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<!-- navBar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Magic Notes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -35,11 +35,13 @@
             </form>
         </div>
     </nav>
+<!-- NavBar End -->
 
-
-    <div class="container my-3">
+<!-- Div container Start -->
+    <div class="container my-3 ">
         <h3>Welcome To Magic Notes</h3>
         <hr>
+        <!-- Note Card start -->
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Add a note</h5>
@@ -49,11 +51,18 @@
                 <button class="btn btn-primary" id="addBtn">Add Note</button>
             </div>
         </div>
+        <!-- Note Card End-->
+
         <hr>
         <h3>Your Notes</h3>
         <hr>
+        <!-- Show notes container Start -->
         <div id="notes" class="row container-fluid"> </div>
+        <!-- Show notes container End -->
+
     </div>
+<!-- Div container End -->
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
